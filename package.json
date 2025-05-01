@@ -1,7 +1,7 @@
 {
-  "name": "mcp-server-boilerplate",
+  "name": "mcp-server-indodax",
   "version": "1.0.0",
-  "description": "Model Context Protocol server boilerplate",
+  "description": "Model Context Protocol server indodax",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {

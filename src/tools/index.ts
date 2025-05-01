@@ -1,6 +1,8 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { calculatorTool } from './calculatorTool.js';
 import { timestampTool } from './timestampTool.js';
+import { indodaxMarketInfoTool } from './indodaxMarketInfoTool.js';
+import { indodaxOrderBookTool } from './indodaxOrderBookTool.js';
 
 /**
  * Register all tools with the MCP server
@@ -13,5 +15,7 @@ export function registerTools(server: McpServer): void {
   // Register timestamp tool
   timestampTool(server);
 
-  // Add more tools here
+  // Register Indodax market tools
+  indodaxMarketInfoTool(server);
+  indodaxOrderBookTool(server);
 }
